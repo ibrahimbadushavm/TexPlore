@@ -1,0 +1,97 @@
+.main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+.left{
+    float: left;
+    height: 100%;
+    width: 60%;
+    background-image: url(https://www.carestack.com/referral/assets/images/new-bg.svg);
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+}
+.right{
+   float: right;
+    height: 100%;
+    width: 40%;
+    background-color:white;
+    margin: 0px 0px 0px 0px;
+}
+.formpos{
+    max-width: 500px;
+  margin: auto;
+}
+form{
+    background:url("ab.jpg") ;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,3.5),0 17px 50px 0 rgba(0,0,0,.19);
+    width:70%;
+    height:450px;
+    margin: 50px 10px 10px 70px;
+    opacity: .98;
+    border-radius: 10px;
+}
+
+
+input[type=text] {
+
+    width: 70%;
+    padding: 12px 20px;
+   margin: 100px 30px 10px 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+   background-color: aliceblue;
+    opacity: 0.5;
+  }
+
+  input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin:10px 30px 10px 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: aliceblue;
+    opacity: 0.5;
+  }
+  input[type=submit] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 10px 10px 70px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color:  deepskyblue;
+  }
+
+.content-wrap h1 {
+    font-family: 'basier_circlesemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 106%;
+    letter-spacing: 0.01em;
+    padding-top: 9px;
+    color: #17A2B8;
+}
+.userlogo{
+ height: 10px;
+ width: 10px;
+ 
+ margin: 30px 30px 0px 130px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none
+  }
+  
+  /* visited link*/
+  a:visited {
+    color: white;
+  } 
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(41, 22, 95);
+  }
+  
